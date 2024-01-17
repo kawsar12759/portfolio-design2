@@ -7,12 +7,18 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 120px;
+
 }
 
 .half-width {
@@ -20,9 +26,17 @@ section {
     padding-left: 3%;
 }
 
+.ex-item {
+    width: 40%;
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+}
+
 .half-width img {
     width: 100%;
-    height: 50%;
+    height: 100%;
 }
 
 .link-button {
@@ -34,7 +48,21 @@ section {
     border-radius: 5px;
 }
 
-.top-banner {
-    background-image: url(images/developer.png);
+.dream {
+    background-image: url(images/half-circle.png);
     background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+#leicester {
+    border-left: 7px blue solid;
+}
+
+#fleetwood {
+    border-left: 7px tomato solid;
+}
+
+footer p {
+    text-align: center;
 }
